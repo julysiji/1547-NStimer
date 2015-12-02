@@ -10,11 +10,10 @@
 		5C637BE71C0C682B00DA0B3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C637BE61C0C682B00DA0B3D /* main.m */; };
 		5C637BEA1C0C682B00DA0B3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C637BE91C0C682B00DA0B3D /* AppDelegate.m */; };
 		5C637BED1C0C682B00DA0B3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C637BEC1C0C682B00DA0B3D /* ViewController.m */; };
-		5C637BF01C0C682C00DA0B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C637BEE1C0C682C00DA0B3D /* Main.storyboard */; };
 		5C637BF21C0C682C00DA0B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C637BF11C0C682C00DA0B3D /* Assets.xcassets */; };
-		5C637BF51C0C682C00DA0B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C637BF31C0C682C00DA0B3D /* LaunchScreen.storyboard */; };
 		5C637C001C0C682C00DA0B3D /* nstimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C637BFF1C0C682C00DA0B3D /* nstimerTests.m */; };
 		5C637C0B1C0C682C00DA0B3D /* nstimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C637C0A1C0C682C00DA0B3D /* nstimerUITests.m */; };
+		5C7D34E51C0F0E530035BA0B /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7D34E41C0F0E530035BA0B /* YYViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +40,7 @@
 		5C637BE91C0C682B00DA0B3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5C637BEB1C0C682B00DA0B3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5C637BEC1C0C682B00DA0B3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5C637BEF1C0C682C00DA0B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C637BF11C0C682C00DA0B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C637BF41C0C682C00DA0B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C637BF61C0C682C00DA0B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C637BFB1C0C682C00DA0B3D /* nstimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nstimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C637BFF1C0C682C00DA0B3D /* nstimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nstimerTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,8 @@
 		5C637C061C0C682C00DA0B3D /* nstimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nstimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C637C0A1C0C682C00DA0B3D /* nstimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nstimerUITests.m; sourceTree = "<group>"; };
 		5C637C0C1C0C682C00DA0B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7D34E31C0F0E530035BA0B /* YYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYViewController.h; sourceTree = "<group>"; };
+		5C7D34E41C0F0E530035BA0B /* YYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +104,9 @@
 				5C637BE91C0C682B00DA0B3D /* AppDelegate.m */,
 				5C637BEB1C0C682B00DA0B3D /* ViewController.h */,
 				5C637BEC1C0C682B00DA0B3D /* ViewController.m */,
-				5C637BEE1C0C682C00DA0B3D /* Main.storyboard */,
+				5C7D34E31C0F0E530035BA0B /* YYViewController.h */,
+				5C7D34E41C0F0E530035BA0B /* YYViewController.m */,
 				5C637BF11C0C682C00DA0B3D /* Assets.xcassets */,
-				5C637BF31C0C682C00DA0B3D /* LaunchScreen.storyboard */,
 				5C637BF61C0C682C00DA0B3D /* Info.plist */,
 				5C637BE51C0C682B00DA0B3D /* Supporting Files */,
 			);
@@ -243,9 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C637BF51C0C682C00DA0B3D /* LaunchScreen.storyboard in Resources */,
 				5C637BF21C0C682C00DA0B3D /* Assets.xcassets in Resources */,
-				5C637BF01C0C682C00DA0B3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +269,7 @@
 			files = (
 				5C637BED1C0C682B00DA0B3D /* ViewController.m in Sources */,
 				5C637BEA1C0C682B00DA0B3D /* AppDelegate.m in Sources */,
+				5C7D34E51C0F0E530035BA0B /* YYViewController.m in Sources */,
 				5C637BE71C0C682B00DA0B3D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,25 +304,6 @@
 			targetProxy = 5C637C071C0C682C00DA0B3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5C637BEE1C0C682C00DA0B3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C637BEF1C0C682C00DA0B3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5C637BF31C0C682C00DA0B3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C637BF41C0C682C00DA0B3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5C637C0D1C0C682C00DA0B3D /* Debug */ = {
@@ -496,6 +475,7 @@
 				5C637C111C0C682C00DA0B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C637C121C0C682C00DA0B3D /* Build configuration list for PBXNativeTarget "nstimerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +484,7 @@
 				5C637C141C0C682C00DA0B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C637C151C0C682C00DA0B3D /* Build configuration list for PBXNativeTarget "nstimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +493,7 @@
 				5C637C171C0C682C00DA0B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
